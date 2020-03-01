@@ -6,7 +6,7 @@ const contacts = [
     firstName: 'Shiv',
     middleName: 'Shankar',
     lastName: 'Singh',
-    contactNumber: 9170067689,
+    contactNumber: '+919170067689',
     email: 'malaviyanshiv@gmail.com',
     createdAt: moment().valueOf()
   },
@@ -15,7 +15,7 @@ const contacts = [
     firstName: 'Shivam',
     middleName: '',
     lastName: 'Verma',
-    contactNumber: 8125976532,
+    contactNumber: '+919170067689',
     email: 'sv5388@gmail.com',
     createdAt: moment().valueOf()
   },
@@ -24,7 +24,7 @@ const contacts = [
     firstName: 'Shivam',
     middleName: '',
     lastName: 'Kushwaha',
-    contactNumber: 8365102484,
+    contactNumber: '+919170067689',
     email: 'theskushwaha@gmail.com',
     createdAt: moment().valueOf()
   }
