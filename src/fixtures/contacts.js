@@ -2,12 +2,21 @@ import moment from 'moment';
 
 const contacts = [
   {
+    id: '0',
+    firstName: 'Kisan',
+    middleName: '',
+    lastName: 'Network',
+    contactNumber: '919810153260',
+    email: 'jobs@kisannetwork.com',
+    createdAt: moment().valueOf()
+  },
+  {
     id: '1',
-    firstName: 'Shiv',
-    middleName: 'Shankar',
-    lastName: 'Singh',
-    contactNumber: '+919170067689',
-    email: 'malaviyanshiv@gmail.com',
+    firstName: 'Anurag',
+    middleName: '',
+    lastName: 'Yadav',
+    contactNumber: '918354820950',
+    email: 'anuragyadav13481@gmail.com',
     createdAt: moment().valueOf()
   },
   {
@@ -15,8 +24,8 @@ const contacts = [
     firstName: 'Shivam',
     middleName: '',
     lastName: 'Verma',
-    contactNumber: '+919170067689',
-    email: 'sv5388@gmail.com',
+    contactNumber: '917393905674',
+    email: 'anurag@gmail.com',
     createdAt: moment().valueOf()
   },
   {
@@ -24,8 +33,8 @@ const contacts = [
     firstName: 'Shivam',
     middleName: '',
     lastName: 'Kushwaha',
-    contactNumber: '+919170067689',
-    email: 'theskushwaha@gmail.com',
+    contactNumber: '917985906194',
+    email: 'anuragyadav@gmail.com',
     createdAt: moment().valueOf()
   }
 ];

@@ -1,0 +1,47 @@
+.is-active{
+  color: black;
+  background: $white;
+}
+
+.component-title{
+  background: $white;
+  border-bottom: 1px solid $off-blue;
+  border-radius: $xs-size;
+  margin: 0 0 $s-size 0;
+  padding: $m-size;
+  text-align: center;
+}
+.component-body{
+  background: $white;
+  border-radius: $xs-size;
+  margin-top: $xs-size;
+  padding: $s-size;
+}
+
+
+.list-item{
+  // background: red;
+  border-bottom: 2px solid $white;
+  border-radius: $xs-size;
+  box-shadow: 0 $m-size $s-size $off-white;
+  padding: $s-size;
+}
+.list-item:hover{
+  background: $off-white;
+  border-bottom: 2px solid $blue;
+  cursor: pointer;
+}
+.button{
+  color: $white;
+  background: $blue;
+  border: none;
+  border-radius: $m-size;
+  box-sizing: content-box;
+  margin: 1px;
+  min-width: 10rem;
+  padding: $s-size;
+}
+
+.not-found{
+  
+}

@@ -1,0 +1,19 @@
+.list_item-link__name_otp_div{
+  display: flex;
+}
+.contact-list-item-link__name{
+  font-size: $m-size;
+  margin: 0 0 $s-size 0;
+  padding: 0;
+}
+.contact-list-item-link__contact{
+  font-size: $s-size;
+  color: gray;
+  margin-bottom: 0;
+  margin-top: $m-size;
+}
+
+.list-item-link{
+  color: black;
+  text-decoration: none;
+} 

@@ -1,0 +1,45 @@
+.compose{
+  padding: $s-size;
+}
+.compose-name{
+  font-size: 2.5rem;
+  margin-bottom: $s-size;
+}
+.compose-number{
+  font-size: $m-size;
+  margin: 0 0 $l-size 0;
+  padding: 0;
+  flex: 1;
+}
+
+form{
+  // background: red;
+  padding-top: $m-size;
+}
+form > input{
+  border: 1px solid $blue;
+  border-radius: $xs-size;
+  display: block;
+  margin-bottom: $xs-size;
+  min-height: $l-size;
+  outline: none;
+  padding: 0.5rem $m-size;
+  width: 30rem;
+}
+
+
+.compose-error{
+  font-size: $m-size;
+  margin: $m-size 0 0 0;
+  padding: 0;
+  flex: 1;
+}
+.compose-button-div{ 
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.button-div{
+  margin: $m-size 0 0 0;
+  display: flex;
+}

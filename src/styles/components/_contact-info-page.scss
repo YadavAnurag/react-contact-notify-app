@@ -1,0 +1,27 @@
+.contact{
+  padding: $s-size;
+}
+.contact__name{
+  font-size: 2.5rem;
+}
+.contact__number{
+  font-size: $m-size;
+  margin: 0;
+  padding: 0px;
+}
+.contact__email{
+  font-size: $m-size;
+  margin-top: $xs-size;
+  padding: 0px;
+}
+.contact-button-div{ 
+  display: flex;
+  flex-direction: row-reverse;
+  //justify-content: space-around;
+  padding: $m-size;
+}
+.button-div{
+  background: $white;
+  border: 1px solid $blue;
+  border-radius: $m-size;
+}

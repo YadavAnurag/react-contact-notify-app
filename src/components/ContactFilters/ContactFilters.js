@@ -1,5 +1,4 @@
 import React from 'react';
-import './ContactFilters.css';
 
 const ContactFilters = ()=>(
   <div>

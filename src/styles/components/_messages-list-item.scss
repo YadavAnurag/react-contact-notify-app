@@ -1,0 +1,19 @@
+.list_item-link__name_otp_div{
+  display: flex;
+}
+.message-list-item-link__name{
+  flex: 1;
+  font-size: $m-size;
+  padding: 0;
+}
+.message-list-item-link__otp{
+  color: gray;
+  display: inline;
+  font-size: 1.5rem;
+}
+.message-list-item-link__contact{
+  font-size: $s-size;
+  color: gray;
+  margin-bottom: 0;
+  margin-top: $xs-size;
+}
