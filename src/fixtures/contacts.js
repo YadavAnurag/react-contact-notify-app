@@ -12,11 +12,11 @@ const contacts = [
   },
   {
     id: '1',
-    firstName: 'Anurag',
+    firstName: 'Shivam',
     middleName: '',
-    lastName: 'Yadav',
-    contactNumber: '918354820950',
-    email: 'anuragyadav13481@gmail.com',
+    lastName: 'Verma',
+    contactNumber: '918127676840',
+    email: 'shivamverma@gmail.com',
     createdAt: moment().valueOf()
   },
   {
