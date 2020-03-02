@@ -23,7 +23,7 @@ const contacts = [
     id: '2',
     firstName: 'Shivam',
     middleName: '',
-    lastName: 'Verma',
+    lastName: 'Kushwaha',
     contactNumber: '917393905674',
     email: 'anurag@gmail.com',
     createdAt: moment().valueOf()
@@ -34,7 +34,16 @@ const contacts = [
     middleName: '',
     lastName: 'Kushwaha',
     contactNumber: '917985906194',
-    email: 'anuragyadav@gmail.com',
+    email: 'kush@gmail.com',
+    createdAt: moment().valueOf()
+  },
+  {
+    id: '3',
+    firstName: 'Shiv',
+    middleName: 'Shankar',
+    lastName: 'Singh',
+    contactNumber: '919170067689',
+    email: 'shiv@gmail.com',
     createdAt: moment().valueOf()
   }
 ];

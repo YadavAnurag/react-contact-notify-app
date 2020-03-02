@@ -45,7 +45,7 @@ class NewMessagesPage extends React.Component{
     console.log('sending', msgObj);
 
     const PATH_BASE = 'https://api.textlocal.in';
-    const API_KEY = 'WDqSw5pfGss-WACxdmZhTsKqLqIxWNTYncpnPpla6h';
+    const API_KEY = 'w7jKtFveJic-KTRrhFwN3iQHgzx1VGfbFNQekLvQhq';
     const TEXT_LOCAL_URL_PATH = `/send/?apikey=${API_KEY}&numbers=${this.props.contact.contactNumber}&message=${message}`;
     const urlTextLocal = `${PATH_BASE}${TEXT_LOCAL_URL_PATH}`;
     console.log(encodeURI(urlTextLocal));
